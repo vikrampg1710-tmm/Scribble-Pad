@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ScribblePad"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+	 <Grid>
+		  <Canvas Name="scribblePad" MouseDown="ScribblePad_MouseDown" MouseMove="ScribblePad_MouseMove" Background="Black"/>
+	 </Grid>
 </Window>
